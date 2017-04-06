@@ -1,0 +1,7 @@
+-	Flume can transport log files across a large number of hosts into HDFS.
+-	Using Apache Flume we can store the data in to any of the centralized stores (HBase, HDFS).
+-	When the rate of incoming data exceeds the rate at which data can be written to the destination, Flume acts as a mediator between data producers and the centralized stores and provides a steady flow of data between them.
+-	The transactions in Flume are channel-based where two transactions (one sender and one receiver) are maintained for each message. It guarantees reliable message delivery.
+-	Flume can be used to transport massive quantities of event data including network traffic data,  social-media-generated data, email messages and pretty much any data source possible.
+-	Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of streaming event data.
+-	Flume is flexible enough to write to other systems, like HBase or Solr.
